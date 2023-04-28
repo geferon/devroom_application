@@ -1,0 +1,13 @@
+name: DevRoomApplicationPlugin
+version: '${version}'
+main: net.geferon.minecraft.devroomapplication.DevRoomApplicationPlugin
+api-version: 1.19
+authors: [ Geferon ]
+commands:
+  startquiz:
+    aliases: [quizstart]
+    usage: /<command> <name>
+    description: "Start the selected quiz"
+  quizscores:
+    usage: /<command> [player]
+    description: "View scores of a player or the server"

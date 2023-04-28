@@ -1,0 +1,10 @@
+# Every time a quiz is started, how many questions will be asked. -1 if you want to ask all the questions in the quiz
+questions-per-quiz: 5
+seconds-between-questions: 5
+
+# DB Settings
+database-host: localhost
+database-port: 3306
+database-db: devroom_quiz
+database-user: root
+database-password:

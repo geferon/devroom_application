@@ -1,0 +1,27 @@
+categories:
+  game:
+    questions:
+      - title: Endermen can be damaged in several ways. Which of the following has been made up?
+        type: MultiChoice
+        answers:
+          - text: Melee attacks
+          - text: Splash water bottles
+          - text: Rolled up newspaper
+            valid: true
+          - text: Rain
+      - title: What are Creepers scared of?
+        type: Matching
+        answer: Ocelots
+  random:
+    questions:
+      - title: What is 2 + 1?
+        type: MultiChoice
+        answers:
+          - text: 3
+            valid: true
+          - text: 1
+          - text: 4
+          - text: 5
+      - title: What is the name of this game?
+        type: Matching
+        answer: Minecraft
